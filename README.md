@@ -26,6 +26,9 @@
   <a href="https://sass-lang.com" target="_blank" rel="noreferrer"> 
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="sass" width="40" height="40"/> 
   </a> 
+  
+  <br />
+  
   <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> 
     <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/> 
   </a> 
@@ -74,8 +77,9 @@
   ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
 
 
+[![Ahmed's top languages](https://github-readme-stats.vercel.app/api/top-langs?username=a7med3bdulbaset&show_icons=true&locale=en&layout=compact&theme=nightowl](https://github.com/A7med3bdulBaset)
 [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=A7med3bdulBaset&theme=nightowl&border_radius=5&date_format=j%20M%5B%20Y%5D&mode=weekly&fire=FF0000&sideNums=00ADFF&currStreakNum=B000DD&sideLabels=FFFFFF)](https://github.com/A7med3bdulBaset)
-[![Ahmed's top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=A7med3bdulBaset&theme=nightowl)](https://github.com/A7med3bdulBaset)
+
 
 ![](https://komarev.com/ghpvc/?username=A7med3bdulBaset)
 
@@ -92,17 +96,6 @@
 </p>
 
 <hr />
-
-
-
-
-
-
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=a7med3bdulbaset&show_icons=true&locale=en&layout=compact" alt="a7med3bdulbaset" /></p>
-
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=a7med3bdulbaset&show_icons=true&locale=en" alt="a7med3bdulbaset" /></p>
-
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=a7med3bdulbaset&" alt="a7med3bdulbaset" /></p>
 
 <!--
 **A7med3bdulBaset/A7med3bdulBaset** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
