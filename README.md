@@ -37,7 +37,7 @@
 
 
 
-<HR>
+<hr />
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=a7med3bdulbaset&label=Profile%20views&color=0e75b6&style=flat" alt="a7med3bdulbaset" /> </p>
 
