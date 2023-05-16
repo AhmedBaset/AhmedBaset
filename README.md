@@ -1,3 +1,25 @@
+```typescript
+const dev: User = {
+  name: "Ahmed Abdelbaset",
+  age: 20,
+  country: "Egypt",
+  languagesSpoken: {
+    English: "Fluent",
+    Arabic: "Native"
+  },
+  skills: [
+    "HTML", "CSS", "SCSS", "TailwindCSS", 
+    "JavaScript", "TypeScript", 
+    "React.js", "Next.js",
+    "Node.js", "Express.js",
+    "MongoDB", "Firebase",
+    ...
+  ],
+  tools: ["Git", "VSCode", "Figma"],
+}
+```
+
+
 [![MasterHead](header.png)](https://github.com/A7med3bdulBaset)
 
 ### Hey there, I'm 
