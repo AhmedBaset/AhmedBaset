@@ -1,5 +1,6 @@
 ```typescript
-const dev: User = {
+// Personality 
+const user: User = {
   name: "Ahmed Abdelbaset",
   age: 20,
   country: "Egypt",
@@ -7,25 +8,29 @@ const dev: User = {
     English: "Fluent",
     Arabic: "Native"
   },
-  skills: [
+};
+
+const skills: [
     "HTML", "CSS", "SCSS", "TailwindCSS", 
     "JavaScript", "TypeScript", 
     "React.js", "Next.js",
     "Node.js", "Express.js",
     "MongoDB", "Firebase",
     ...
-  ],
-  tools: ["Git", "VSCode", "Figma"],
-}
+  ];
+
+let isGraduated = 0.1 + 0.2 === 0.3
+
 ```
 
-
+<!--
 [![MasterHead](header.png)](https://github.com/A7med3bdulBaset)
+-->
 
 ### Hey there, I'm 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=30&pause=1000&width=435&lines=Ahmed+AbdelBaset;a+front-end+Developer)](https://git.io/typing-svg)
+![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=30&pause=1000&width=435&lines=Ahmed+AbdelBaset;a+MERN+Stack+Developer)
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=a7med3bdulbaset&theme=onedark&rank=S" alt="a7med3bdulbaset" /></a> </p>
+<p align="left"><img src="https://github-profile-trophy.vercel.app/?username=a7med3bdulbaset&theme=onedark&rank=S" alt="a7med3bdulbaset" /></p>
 
 <h3 align="left">Languages and Tools:</h3>
 <p align="left"> 
