@@ -2,17 +2,15 @@
 
 ```typescript
 // Personality 
-const user: User = {
-  name: "Ahmed Abdelbaset",
-  age: 20,
-  country: "Egypt",
-  languagesSpoken: {
-    English: "Fluent",
-    Arabic: "Native"
-  },
-};
+const name = "Ahmed Abdelbaset";
+let age = 20;
+const country = "Egypt";
+const languagesSpoken = {
+  English: "Fluent",
+  Arabic: "Native"
+}
 
-const skills: [
+const skills: Skill[] = [
     "HTML", "CSS", "SCSS", "TailwindCSS", 
     "JavaScript", "TypeScript", 
     "React.js", "Next.js",
@@ -21,7 +19,18 @@ const skills: [
     ...
   ];
 
-let isGraduated = 0.1 + 0.2 === 0.3
+let isGraduated: boolean = 0.1 + 0.2 === 0.3;
+
+const YEAR_IN_MS = 1000 * 60 * 60 * 24 * 365.25
+
+setInterval(() => {
+  age++;
+  
+  if (new Date().getFullYear() >= 2024) {
+    isGraduated = 
+      (0.1 * 10) + (0.2 * 10) === (0.3 * 10)
+  }
+}, YEAR_IN_MS)
 
 ```
 
