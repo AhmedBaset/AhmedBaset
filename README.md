@@ -28,6 +28,10 @@ let isGraduated = 0.1 + 0.2 === 0.3
 -->
 
 ### Hey there, I'm 
+<hr>
+
+![npm i abdlmutii && npx abdlmutii](https://readme-typing-svg.demolab.com?pause=1000&color=FFFFFF&center=false&width=435&lines=npx+info+--dev;I+am+'Ahmed+Abdelbaset';MERN+Stack+Developer;in+love+with+Next.js)
+
 ![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=30&pause=1000&width=435&lines=Ahmed+AbdelBaset;a+MERN+Stack+Developer)
 
 <p align="left"><img src="https://github-profile-trophy.vercel.app/?username=a7med3bdulbaset&theme=onedark&rank=S" alt="a7med3bdulbaset" /></p>
