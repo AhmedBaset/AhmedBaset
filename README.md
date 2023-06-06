@@ -1,5 +1,7 @@
 ![npm i abdlmutii && npx abdlmutii](https://readme-typing-svg.demolab.com?pause=1000&color=FFFFFF&center=false&width=435&lines=>+npx+info+--dev;>+I+am+'Ahmed+Abdelbaset';MERN+Stack+Developer;>+in+love+with+Next.js)
 
+![](https://komarev.com/ghpvc/?username=A7med3bdulBaset)
+
 ```typescript
 // Personality 
 const name = "Ahmed Abdelbaset";
@@ -34,6 +36,8 @@ setInterval(() => {
 
 ```
 
+![My Skills](https://skillicons.dev/icons?i=html,css,sass,js,ts,tailwind,nextjs,react,redux,express,mongodb,firebase,bots,vscode,vite,figma,gulp&theme=dark&perline=6)
+
 <!--
 [![MasterHead](header.png)](https://github.com/A7med3bdulBaset)
 
@@ -46,8 +50,9 @@ setInterval(() => {
 
 <!--
 ![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=30&pause=1000&width=435&lines=Ahmed+AbdelBaset;a+MERN+Stack+Developer)
--->
+
 <p align="left"><img src="https://github-profile-trophy.vercel.app/?username=a7med3bdulbaset&theme=onedark&rank=S" alt="a7med3bdulbaset" /></p>
+
 
 <h3 align="left">Languages and Tools:</h3>
 <p align="left"> 
@@ -94,7 +99,7 @@ setInterval(() => {
     &nbsp;&nbsp;<img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> 
   </a>
 </p>
-
+-->
 <!-- ## Skils:  
   ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
   ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
@@ -125,7 +130,7 @@ setInterval(() => {
 [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=A7med3bdulBaset&theme=nightowl&border_radius=5&date_format=j%20M%5B%20Y%5D&mode=weekly&fire=FF0000&sideNums=00ADFF&currStreakNum=B000DD&sideLabels=FFFFFF)](https://github.com/A7med3bdulBaset)
 
 
-![](https://komarev.com/ghpvc/?username=A7med3bdulBaset)
+
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
