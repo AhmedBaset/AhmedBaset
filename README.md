@@ -124,13 +124,16 @@ setInterval(() => {
   ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
   ![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white)
   ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
- -->
+
 
 [![Ahmed's top languages](https://github-readme-stats.vercel.app/api/top-langs?username=a7med3bdulbaset&show_icons=true&locale=en&layout=compact&theme=nightowl)](https://github.com/A7med3bdulBaset)
 [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=A7med3bdulBaset&theme=nightowl&border_radius=5&date_format=j%20M%5B%20Y%5D&mode=weekly&fire=FF0000&sideNums=00ADFF&currStreakNum=B000DD&sideLabels=FFFFFF)](https://github.com/A7med3bdulBaset)
 
+-->
 
+![3D](/profile-3d-contrib/profile-green.svg)
 
+ 
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
