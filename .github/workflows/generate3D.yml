@@ -4,7 +4,7 @@ on:
   schedule:
     - cron: "0 * * * *"
   workflow_dispatch:
-  push:
+  push: 
 
 jobs:
   build:
@@ -18,12 +18,12 @@ jobs:
       - name: Generate 3D contribution
         uses: yoshi389111/github-profile-3d-contrib@0.7.1
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
 
       - name: Get current date
         id: date
-        run: echo "::set-output name=date::$(date +'%Y-%m-%d')"
+        run: echo "::set-output name=date::$(date +'%Y-%m-%d_%h:%m')"
 
       - name: Configure Git
         run: |
