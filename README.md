@@ -51,6 +51,19 @@ setInterval(() => {
 <!-- 3D Contributions -->
 ![3D](/profile-3d-contrib/profile-night-rainbow.svg)
 
+<!-- Social Links -->
+### Following me? Let's be friends:
+
+<a href="https://codepen.io/a7med3bdulbaset" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codepen.svg" alt="CodePen" height="25" width="25" style="margin-right: 10px;"></a>
+<a href="https://twitter.com/a7med3bdulbaset" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="Twitter" height="25" width="25" style="margin-right: 10px;"></a>
+<a href="https://linkedin.com/in/a7med3bdulbaset" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="25" width="25" style="margin-right: 10px;"></a>
+<a href="https://stackoverflow.com/users/a7med3bdulbaset" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/stack-overflow.svg" alt="Stack Overflow" height="25" width="25" style="margin-right: 10px;"></a>
+<a href="https://fb.com/a7med3bdulbaset" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="Facebook" height="25" width="25" style="margin-right: 10px;"></a>
+<a href="https://instagram.com/a7med3bdulbaset" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="Instagram" height="25" width="25" style="margin-right: 10px;"></a>
+<a href="https://medium.com/@a7med3bdulbaset" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg" alt="Medium" height="25" width="25" style="margin-right: 10px;"></a>
+<a href="https://www.youtube.com/c/a7med3bdulbaset" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="YouTube" height="25" width="25"></a>
+
+
 
 
 
