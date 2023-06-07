@@ -23,10 +23,14 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
       
+      - name: Get current date
+        id: date
+        run: echo "::set-output name=date::$(date +'%Y-%m-%d')"
+        
       - name: Commit & Push
         run: |
           git config user.name Ahmed Abdelbaset 
           git config user.email A7med3bdulBaset@users.noreply.github.com
           git add -A .
-          git commit -m "generated"
+          git commit -m "Generate 3D on ${{ steps.date.outputs.date }}"
           git push
