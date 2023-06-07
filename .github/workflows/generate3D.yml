@@ -35,15 +35,19 @@ jobs:
         id: git-check
         run: |
           if [[ -z $(git status -s) ]]; then
-            echo "::set-output name=changes::false"
+            echo "changes=false" >> $GITHUP_OUTPUT
           else
-            echo "::set-output name=changes::true"
+            echo "changes=true" >> $GITHUB_OUTPUT
           fi
 
-      - name: Commit & Push
-        if: steps.git-check.outputs.changes == 'true'
+      - if: steps.git-check.outputs.changes == 'true'
+        name: Commit & Push
         run: |
           git commit -am "Generate 3D on ${{ steps.date.outputs.date }}
           Co-Authored-By: Ahmed Abdelbaset <A7med3bdulBaset@gmail.com>
           "
           git push origin main
+
+      - if: steps.git-check.outputs.changes == 'false'
+        name: Already Up-to-date 
+        run: echo "No changes to push"
