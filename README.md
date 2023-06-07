@@ -1,3 +1,10 @@
+<!--
+  © Code with ♥️ by Ahmed Abdelbaset.
+  © Code with ♥️ by Ahmed Abdelbaset.
+
+-->
+
+<!-- Terminal: Text Animation -->
 ![npm i abdlmutii && npx abdlmutii](https://readme-typing-svg.demolab.com?pause=1000&color=FFFFFF&center=false&width=435&lines=>+npx+info+--dev;>+I+am+'Ahmed+Abdelbaset';MERN+Stack+Developer;>+in+love+with+Next.js)
 
 ![](https://komarev.com/ghpvc/?username=A7med3bdulBaset)
@@ -131,7 +138,7 @@ setInterval(() => {
 
 -->
 
-![3D](/profile-3d-contrib/profile-green.svg)
+![3D](/profile-3d-contrib/profile-night-rainbow.svg)
 
  
 
