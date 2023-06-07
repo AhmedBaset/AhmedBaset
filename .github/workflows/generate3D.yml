@@ -2,7 +2,7 @@ name: Generate Contribution 3D
 
 on:
   schedule:
-    - cron: "0 * * * *"
+    - cron: "* * * * *"
   workflow_dispatch:
   push: 
 
@@ -14,13 +14,11 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
-        
-
 
       - name: Configure Git
         run: |
           git config --global user.name "Ahmed Abdelbaset"
-          git config --global user.email "A7med3bdulBaset@users.noreply.github.com"
+          git config --global user.email "${{ github.repository_owner }}@users.noreply.github.com"
           git pull
 
       - name: Generate 3D contribution
@@ -31,7 +29,7 @@ jobs:
 
       - name: Get current date
         id: date
-        run: echo "::set-output name=date::$(date +'%Y-%m-%d_%h-%m')"
+        run: echo "::set-output name=date::$(date +'%Y-%m-%d %H:%M')"
 
       - name: Check for changes
         id: git-check
@@ -42,13 +40,10 @@ jobs:
             echo "::set-output name=changes::true"
           fi
 
-      - name: Commit changes
+      - name: Commit & Push
         if: steps.git-check.outputs.changes == 'true'
         run: |
-          git pull
-          git add -A .
-          git commit -m "Generate 3D on ${{ steps.date.outputs.date }}"
-
-      - name: Push changes
-        if: steps.git-check.outputs.changes == 'true'
-        run: git push origin main
+          git commit -am "Generate 3D on ${{ steps.date.outputs.date }}
+          Co-Authored-By: Ahmed Abdelbaset <A7med3bdulBaset@gmail.com>
+          "
+          git push origin main
