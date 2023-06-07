@@ -42,6 +42,7 @@ jobs:
       - name: Commit changes
         if: steps.git-check.outputs.changes == 'true'
         run: |
+          git pull
           git add -A .
           git commit -m "Generate 3D on ${{ steps.date.outputs.date }}"
 
