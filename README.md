@@ -1,14 +1,17 @@
 <!--
-  © Code with ♥️ by Ahmed Abdelbaset.
-  © Code with ♥️ by Ahmed Abdelbaset.
+  Code with ♥️
+  © By Ahmed Abdelbaset 
+  https://github.com/A7med3bdulBaset
 
 -->
 
 <!-- Terminal: Text Animation -->
 ![npm i abdlmutii && npx abdlmutii](https://readme-typing-svg.demolab.com?pause=1000&color=FFFFFF&center=false&width=435&lines=>+npx+info+--dev;>+I+am+'Ahmed+Abdelbaset';MERN+Stack+Developer;>+in+love+with+Next.js)
 
+<!-- Profile Views Counter -->
 ![](https://komarev.com/ghpvc/?username=A7med3bdulBaset)
 
+<!-- Code Snippet -->
 ```typescript
 // Personality 
 const name = "Ahmed Abdelbaset";
@@ -42,7 +45,7 @@ setInterval(() => {
 }, YEAR_IN_MS)
 
 ```
-
+<!-- Skills -->
 ![My Skills](https://skillicons.dev/icons?i=html,css,sass,js,ts,tailwind,nextjs,react,redux,express,mongodb,firebase,bots,vscode,vite,figma,gulp&theme=dark&perline=6)
 
 <!--
