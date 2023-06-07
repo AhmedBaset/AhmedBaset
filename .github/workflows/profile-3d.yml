@@ -19,8 +19,8 @@ jobs:
           
       - name: Commit & Push
         run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
+          git config user.name Ahmed Abdelbaset
+          git config user.email A7med3bdulBaset@gmail.com
           git add -A .
-          git commit -m "generated"
+          git commit -m "Generate Contributions 3D"
           git push
