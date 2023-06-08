@@ -28,7 +28,7 @@ function calculateAge() {
 
   if (days < 0) {
     const prevMonth = new Date(today.getFullYear(), today.getMonth() - 1, 0);
-    days += prevMonth.getDate();
+    days = prevMonth.getDate() - birth.getDate() + today.getDate();
     months--;
   }
 
