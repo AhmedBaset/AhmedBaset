@@ -38,6 +38,7 @@ jobs:
             echo "changes=true" >> $GITHUB_OUTPUT
           else
             echo "changes=false" >> $GITHUB_OUTPUT
+          fi
 
       - if: steps.git-check.outputs.changes == 'true'
         name: Commit & Push
