@@ -50,6 +50,6 @@ jobs:
           "
           git push
 
-      - if: steps.git-check.outputs.changes == 'true'
+      - if: steps.git-check.outputs.changes == 'false'
         name: Already Up-to-date 
         run: echo "No changes to push"
