@@ -39,8 +39,9 @@ function updateAgeInReadme(content, age) {
   const { years, months, days } = age;
   const updatedDate = new Date().toLocaleString();
 
-  const pattern = /age(:|\s?=)\s?(.+?)(;|,)\n/;
-  const replacement = `age$1 "${years} years, ${months} months, and ${days} days"$3 // Updated automatically on ${updatedDate}`;
+//  const pattern = /age(:|\s?=)\s?(.+?)(;|,)\n/;
+  const pattern = /age.+\n/
+  const replacement = `age = "${years} years, ${months} months, and ${days} days"; // Updated automatically on ${updatedDate}`;
 
   return content.replace(pattern, replacement);
 }
