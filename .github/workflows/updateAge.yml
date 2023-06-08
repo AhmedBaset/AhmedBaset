@@ -34,7 +34,7 @@ jobs:
       - name: Has Changes?
         id: git-check
         run: |
-          if [[ -n $(git diff) ]]; then
+          if [[ -n $(git diff --casched) ]]; then
             echo "True"
             echo "changes=true" >> $GITHUB_OUTPUT
           else
