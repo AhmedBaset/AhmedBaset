@@ -17,11 +17,37 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v3
         
-       
+      - name: Configure Git
+        run: |
+          git config --global user.name "Ahmed Abdelbaset"
+          git config --global user.email "${{ github.repository_owner }}@users.noreply.github.com"
+          git pull
 
-    #  - name: Install dependencies
-     #   run: npm install
-
+   
       - name: Update Age
         run: npm run update-age
 
+      - name: Get current date
+        id: date
+        run: echo "date=$(date +'%Y-%m-%d %H:%M')" >> $GITHUB_OUTPUT
+
+      - name: Check for changes
+        id: git-check
+        run: |
+          if [[ -z $(git diff) ]]; then
+            echo "changes=false" >> $GITHUP_OUTPUT
+          else
+            echo "changes=true" >> $GITHUB_OUTPUT
+          fi
+
+      - if: steps.git-check.outputs.changes == 'true'
+        name: Commit & Push
+        run: |
+          git commit -am "Update Age on ${{ steps.date.outputs.date }}
+          Co-Authored-By: Ahmed Abdelbaset <A7med3bdulBaset@gmail.com>
+          "
+          git push origin main
+
+      - if: steps.git-check.outputs.changes == 'false'
+        name: Already Up-to-date 
+        run: echo "No changes to push"
