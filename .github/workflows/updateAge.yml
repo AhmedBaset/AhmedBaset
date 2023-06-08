@@ -32,11 +32,15 @@ jobs:
         run: echo "date=$(date +'%Y-%m-%d %H:%M')" >> $GITHUB_OUTPUT
 
       - name: Has Changes
-        id: changes # 1 true || 0 false
-        uses: UnicornGlobal/has-changes-action@v1.0.11
+        id: git-check
+        run: |
+          changes=$(git diff --name-only HEAD^ HEAD)
+          if [[ -n $changes ]]; then
+            echo "changes=true" >> $GITHUB_OUTPUT
+          else
+            echo "changes=false" >> $GITHUB_OUTPUT
 
-
-      - if: steps.changes.outputs.changed == 1
+      - if: steps.git-check.outputs.changes == 'true'
         name: Commit & Push
         run: |
           git commit -am "Update Age on ${{ steps.date.outputs.date }}
@@ -44,6 +48,6 @@ jobs:
           "
           git push
 
-      - if: steps.changes.outputs.changed == 0
+      - if: steps.git-check.outputs.changes == 'true'
         name: Already Up-to-date 
         run: echo "No changes to push"
