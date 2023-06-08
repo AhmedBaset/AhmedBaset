@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "update-age": "node packages/updateAge"
+  }
+}
