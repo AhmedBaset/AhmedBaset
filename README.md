@@ -15,8 +15,11 @@
 ```typescript
 // Personality 
 const name = "Ahmed Abdelbaset";
+
 let age = "20 years, 4 months, and 13 days"; // Updated automatically on 6/8/2023, 12:45:29 PM
+
 const country = "Egypt";
+
 const languagesSpoken = {
   English: "Fluent",
   Arabic: "Native"
@@ -28,7 +31,7 @@ const skills: Skill[] = [
     "React.js", "Next.js",
     "Node.js", "Express.js",
     "MongoDB", "Firebase",
-    ...
+    ...mySkills
   ];
 
 let isGraduated: boolean = 0.1 + 0.2 === 0.3;
