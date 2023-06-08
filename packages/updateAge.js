@@ -6,7 +6,7 @@ const ageAsDate = new Date() - birthday;
 (async () => {
   const { years, months, days } = calculateAge()
   
-  const README = "./../README.md";
+  const README = "../README.md";
   
   const readmeContent = await fs.readFile(README)
   const newContent = readmeContent.replace(/age(\s?=|:)\s?(.+)(;|,)/, `age$1 ${years} years, ${months} months, and ${days} days$3`)
