@@ -10,7 +10,7 @@ const ageAsDate = new Date() - birthday;
   const README = path.join(process.cwd(), "README.md");
   
   const readmeContent = await fs.readFile(README, "utf-8")
-  const newContent = readmeContent.replace(/age(\s?=|:)\s?(.+)(;|,)/, `age$1 "${years} years, ${months} months, and ${days} days"$3 // Updated Automatically today: ${new Date().toLocalString()}`)
+  const newContent = readmeContent.replace(/age(\s?=|:)\s?(.+)(;|,)/, `age$1 "${years} years, ${months} months, and ${days} days"$3 // Updated Automatically today: ${new Date().toDateString()}`)
   
   await fs.writeFile(README, newContent)
   console.log("DONE")
