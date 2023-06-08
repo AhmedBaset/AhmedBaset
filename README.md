@@ -15,7 +15,7 @@
 ```typescript
 // Personality 
 const name = "Ahmed Abdelbaset";
-let age = 20 years, 4 months, and 13 days;
+let age = "20 years, 4 months, and 13 days"; // Updated Automatically today: Thu Jun 08 2023
 const country = "Egypt";
 const languagesSpoken = {
   English: "Fluent",
