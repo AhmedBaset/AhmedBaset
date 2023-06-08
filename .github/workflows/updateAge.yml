@@ -34,7 +34,7 @@ jobs:
       - name: Has Changes?
         id: git-check
         run: |
-          changes=$(git diff --name-only HEAD^ HEAD)
+          changes=$(git diff --name-only HEAD)
           if [[ -n $changes ]]; then
             echo "changes=true" >> $GITHUB_OUTPUT
           else
