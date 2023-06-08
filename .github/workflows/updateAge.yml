@@ -25,11 +25,7 @@ jobs:
 
    
       - name: Update Age
-        run: |
-          npm run update-age
-          git add .
-          git commit -m "a"
-          git push
+        run: npm run update-age
 
       - name: Get current date
         id: date
