@@ -46,7 +46,7 @@ jobs:
           git commit -am "Update Age on ${{ steps.date.outputs.date }}
           Co-Authored-By: Ahmed Abdelbaset <A7med3bdulBaset@gmail.com>
           "
-          git push origin main
+          git push
 
       - if: steps.git-check.outputs.changes == 'false'
         name: Already Up-to-date 
