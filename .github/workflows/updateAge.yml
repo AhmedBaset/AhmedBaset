@@ -25,7 +25,11 @@ jobs:
 
    
       - name: Update Age
-        run: npm run update-age
+        run: |
+          npm run update-age
+          git add .
+          git commit -m "a"
+          git push
 
       - name: Get current date
         id: date
@@ -34,7 +38,7 @@ jobs:
       - name: Has Changes?
         id: git-check
         run: |
-          if [[ -z $(git diff HEAD) ]]; then
+          if [[ -n $(git diff HEAD) ]]; then
             echo "changes=true" >> $GITHUB_OUTPUT
           else
             echo "changes=false" >> $GITHUB_OUTPUT
