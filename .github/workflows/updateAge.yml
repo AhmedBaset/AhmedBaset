@@ -12,7 +12,7 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Set up Node.js
         uses: actions/setup-node@v3
@@ -35,9 +35,9 @@ jobs:
         id: git-check
         run: |
           if [[ -z $(git diff --name-only) ]]; then
-            echo "changes=false" >> $GITHUP_OUTPUT
+            echo "changes=false" >> $GITHUP_ENV
           else
-            echo "changes=true" >> $GITHUB_OUTPUT
+            echo "changes=true" >> $GITHUB_ENV
           fi
 
       - if: steps.git-check.outputs.changes == 'true'
