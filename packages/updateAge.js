@@ -9,7 +9,7 @@ const ageAsDate = new Date() - birthday;
   
   const README = path.join(process.cwd(), "README.md");
   
-  const readmeContent = await fs.readFile(README)
+  const readmeContent = await fs.readFile(README, "utf-8")
   const newContent = readmeContent.replace(/age(\s?=|:)\s?(.+)(;|,)/, `age$1 ${years} years, ${months} months, and ${days} days$3`)
   
   await fs.writeFile(README, newContent)
