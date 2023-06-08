@@ -6,7 +6,7 @@
 -->
 
 <!-- Terminal: Text Animation -->
-![npm i abdlmutii && npx abdlmutii](https://readme-typing-svg.demolab.com?pause=1000&color=FFFFFF&center=false&width=435&lines=>+npx+info+--dev;>+I+am+'Ahmed+Abdelbaset';MERN+Stack+Developer;>+in+love+with+Next.js)
+![npm i abdlmutii && npx abdlmutii](https://readme-typing-svg.demolab.com?pause=1000&color=FFFFFF&center=false&width=435&lines=>+npx+info+--dev;>+I+am+'Ahmed+Abdelbaset';>+MERN+Stack+Developer;>+in+love+with+Next.js)
 
 <!-- Profile Views Counter -->
 ![](https://komarev.com/ghpvc/?username=A7med3bdulBaset)
@@ -15,7 +15,7 @@
 ```typescript
 // Personality 
 const name = "Ahmed Abdelbaset";
-let age = 20;
+let age = "20 years, 4 months, and 13 days"; // Updated automatically on 6/8/2023, 12:45:29 PM
 const country = "Egypt";
 const languagesSpoken = {
   English: "Fluent",
