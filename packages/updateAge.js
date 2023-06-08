@@ -1,20 +1,17 @@
-const fs = require("fs").promises
-const path = require("path")
-const { birthday } = require("../config")
-
-const ageAsDate = new Date() - birthday;
+const fs = require("fs").promises;
+const path = require("path");
+const { birthday } = require("../config");
 
 (async () => {
-  const { years, months, days } = calculateAge()
-  
-  const README = path.join(process.cwd(), "README.md");
-  
-  const readmeContent = await fs.readFile(README, "utf-8")
-  const newContent = readmeContent.replace(/age(\s?=|:)\s?(.+)(;|,)/, `age$1 "${years} years, ${months} months, and ${days} days"$3 // Updated Automatically today: ${new Date().toDateString()}`)
-  
-  await fs.writeFile(README, newContent)
-  console.log("DONE")
-})()
+  const age = calculateAge();
+  const readmePath = path.join(process.cwd(), "README.md");
+
+  const readmeContent = await fs.readFile(readmePath, "utf-8");
+  const updatedContent = updateAgeInReadme(readmeContent, age);
+
+  await fs.writeFile(readmePath, updatedContent);
+  console.log("DONE");
+})();
 
 function calculateAge() {
   const today = new Date();
@@ -38,4 +35,12 @@ function calculateAge() {
   return { years, months, days };
 }
 
+function updateAgeInReadme(content, age) {
+  const { years, months, days } = age;
+  const updatedDate = new Date().toLocaleString();
 
+  const pattern = /age(:|\s?=)\s?(.+?)(;|,)/;
+  const replacement = `age$1 "${years} years, ${months} months, and ${days} days"$3 // Updated automatically on ${updatedDate}`;
+
+  return content.replace(pattern, replacement);
+}
