@@ -41,7 +41,7 @@ function updateAgeInReadme(content: string, age: { years: number, months: number
 
 //  const pattern = /age(:|\s?=)\s?(.+?)(;|,)\n/;
   const pattern = /age.+👨🏻‍💻/s
-  const replacement = `age = {\n    years: ${years},\n    months: ${months},\n    days: ${days}\n  }; // Updated automatically on ${updatedDate} 👨🏻‍💻`;
+  const replacement = `age = {\n    years: ${years},\n    months: ${months},\n    days: ${days}\n}; // Updated automatically on ${updatedDate} 👨🏻‍💻`;
 
   return content.replace(pattern, replacement);
 }
