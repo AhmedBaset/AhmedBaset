@@ -3,7 +3,7 @@ name: Update Age
 on:
   schedule:
     - cron: '0 0 * * *'
-#  push:
+  push:
 #    branches: [main]
 
 jobs:
