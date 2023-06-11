@@ -1,5 +1,5 @@
 {
   "scripts": {
-    "update-age": "node packages/updateAge"
+    "update-age": "npx ts-node packages/updateAge"
   }
 }
