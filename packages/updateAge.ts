@@ -1,7 +1,7 @@
 const fs = require("fs").promises;
 const path = require("path");
 const { birthday } = require("../config");
-
+ 
 (async () => {
   const age = calculateAge();
   const readmePath = path.join(process.cwd(), "README.md");
