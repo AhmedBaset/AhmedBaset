@@ -40,8 +40,8 @@ function updateAgeInReadme(content: string, age: { years: number, months: number
   const updatedDate = new Date().toLocaleString();
 
 //  const pattern = /age(:|\s?=)\s?(.+?)(;|,)\n/;
-  const pattern = /age.+ 👨🏻‍💻/
-  const replacement = `age = {\n\t\tyears: ${years},\n\t\tmonths: ${months},\n\t\tdays: ${days}\n\t}; // Updated automatically on ${updatedDate}\n 👨🏻‍💻`;
+  const pattern = /age.+👨🏻‍💻/
+  const replacement = `age = {\n\t\tyears: ${years},\n\t\tmonths: ${months},\n\t\tdays: ${days}\n\t}; // Updated automatically on ${updatedDate}👨🏻‍💻`;
 
   return content.replace(pattern, replacement);
 }
