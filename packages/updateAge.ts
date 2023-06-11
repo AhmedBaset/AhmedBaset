@@ -35,7 +35,7 @@ function calculateAge() {
   return { years, months, days };
 }
 
-function updateAgeInReadme(content, age) {
+function updateAgeInReadme(content: string, age: { years: number, months: number, days: number }) {
   const { years, months, days } = age;
   const updatedDate = new Date().toLocaleString();
 
