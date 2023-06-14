@@ -1,11 +1,11 @@
 {
   "type": "bitmap",
   "fileName": "MySettings.svg",
-  "backgroundColor": "#ffffff",
-  "foregroundColor": "#00000f",
-  "strongColor": "#111133",
-  "weakColor": "gray",
-  "radarColor": "#47a042",
+  "backgroundColor": "#333333",
+  "foregroundColor": "#cccccc",
+  "strongColor": "#0099cc",
+  "weakColor": "#005588",
+  "radarColor": "#ff0000",
   "growingAnimation": true,
   "contribPatterns": [
     {
