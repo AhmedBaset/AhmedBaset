@@ -3,7 +3,7 @@
   "fileName": "MySettings.svg",
   "backgroundColor": "#0d1017",
   "foregroundColor": "#16d5ff", 
-  "strongColor": "#ffe700", // 3cc6ff
+  "strongColor": "#ffe700",
   "weakColor": "#1ffff1",
   "radarColor": "#ff0000",
   "growingAnimation": true,
