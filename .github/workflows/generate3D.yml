@@ -28,7 +28,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
-          SETTING_JSON: ./config/contrib-3d.json
+          SETTING_JSON: ./config/3d-settings.json
 
       - name: Get current date
         id: date
@@ -40,7 +40,7 @@ jobs:
           if [[ -n $(git diff HEAD) ]]; then
             echo "changes=true" >> $GITHUB_OUTPUT
           else
-            echo "changes=true" >> $GITHUB_OUTPUT
+            echo "changes=false" >> $GITHUB_OUTPUT
           fi
 
       - if: steps.git-check.outputs.changes == 'true'
