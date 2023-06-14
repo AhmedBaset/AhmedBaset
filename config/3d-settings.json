@@ -1,7 +1,7 @@
 {
   "type": "bitmap", 
   "fileName": "MySettings.svg",
-  "backgroundColor": "#ffffff",
+  "backgroundColor": "#ccc",
   "foregroundColor": "orange",
   "strongColor": "red",
   "weakColor": "yellow",
