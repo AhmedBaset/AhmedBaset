@@ -7,6 +7,15 @@
   "weakColor": "#1ffff1",
   "radarColor": "#01ffb5",
   "growingAnimation": true,
+  
+  "l10n": {
+    "commit": "تأكيد",
+    "repo": "مستودع",
+    "review": "مراجعة",
+    "pullreq": "طلب سحب",
+    "issue": "مشكلة"
+  },
+  
   "contribPatterns": [
     {
       "top": {
