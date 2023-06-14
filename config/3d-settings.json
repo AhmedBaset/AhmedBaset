@@ -5,16 +5,8 @@
   "foregroundColor": "#16d5ff",
   "strongColor": "#3cc6ff",
   "weakColor": "#1ffff1",
-  "radarColor": "#01ffb5",
+  "radarColor": "#06e9ff",
   "growingAnimation": true,
-  
-  "l10n": {
-    "commit": "تأكيد",
-    "repo": "مستودع",
-    "review": "مراجعة",
-    "pullreq": "طلب سحب",
-    "issue": "مشكلة"
-  },
   
   "contribPatterns": [
     {
