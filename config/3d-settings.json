@@ -1,5 +1,5 @@
 {
-  "type": "bitmap",
+  "type": "bitmap", 
   "fileName": "MySettings.svg",
   "backgroundColor": "#ffffff",
   "foregroundColor": "orange",
