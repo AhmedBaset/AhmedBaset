@@ -28,6 +28,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
+          SETTING_JSON: ./config/3d-settings.json
+
 
       - name: Get current date
         id: date
@@ -45,7 +47,8 @@ jobs:
       - if: steps.git-check.outputs.changes == 'true'
         name: Commit & Push
         run: |
-          git commit -am "Update Age on ${{ steps.date.outputs.date }}
+          git add .
+          git commit -m "Update Age on ${{ steps.date.outputs.date }}
           Co-Authored-By: Ahmed Abdelbaset <A7med3bdulBaset@gmail.com>
           "
           git push
