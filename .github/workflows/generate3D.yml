@@ -28,7 +28,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
-          SETTING_JSON: ./config/3d-settings.json
+          SETTING_JSON: config/3d-settings.json
 
       - name: Get current date
         id: date
