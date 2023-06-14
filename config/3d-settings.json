@@ -11,8 +11,8 @@
   "contribPatterns": [
     {
       "top": {
-        "backgroundColor": "#f8f8f8",
-        "foregroundColor": "#aaaaaa",
+        "backgroundColor": "#00ff00",
+        "foregroundColor": "orange",
         "width": 32,
         "bitmap": [
           "0x00000000",
