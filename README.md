@@ -58,6 +58,12 @@ setInterval(() => {
 <!-- 3D Contributions -->
 [![3D](/profile-3d-contrib/profile-night-rainbow.svg)](https://github.com/A7med3bdulBaset)
 
+---
+
+[![3D](/profile-3d-contrib/MySettings.svg)](https://github.com/A7med3bdulBaset)
+
+---
+
 <!-- Social Links -->
 ### Following me? Let's be friends:
 
