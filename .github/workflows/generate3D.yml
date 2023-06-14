@@ -4,6 +4,8 @@ on:
   schedule:
     - cron: "0 0,8,16 * * *"
   workflow_dispatch:
+  pull_request:
+    tags: [merged]
  # push: 
  #   branches: main
 
