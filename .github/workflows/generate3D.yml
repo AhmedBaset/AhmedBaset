@@ -41,14 +41,14 @@ jobs:
           if [[ -n $(git diff HEAD) ]]; then
             echo "changes=true" >> $GITHUB_OUTPUT
           else
-            echo "changes=false" >> $GITHUB_OUTPUT
+            echo "changes=true" >> $GITHUB_OUTPUT
           fi
 
       - if: steps.git-check.outputs.changes == 'true'
         name: Commit & Push
         run: |
           git add .
-          git commit -m "Update Age on ${{ steps.date.outputs.date }}
+          git commit -m "Update 3D on ${{ steps.date.outputs.date }}
           Co-Authored-By: Ahmed Abdelbaset <A7med3bdulBaset@gmail.com>
           "
           git push
