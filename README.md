@@ -19,8 +19,8 @@ const name = "Ahmed Abdelbaset";
 let age = {
     years: 20,
     months: 4,
-    days: 23
-}; // Updated automatically on 6/18/2023, 1:00:45 AM 👨🏻‍💻
+    days: 24
+}; // Updated automatically on 6/19/2023, 12:54:47 AM 👨🏻‍💻
 
 const country = "Egypt";
 
