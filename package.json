@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "update-age": "npm i && ts-node packages/updateAge"
+    "update-age": "npm i && ts-node scripts/updateAge"
   }, 
   "devDependencies": {
     "typescript": "^5.1.3",
