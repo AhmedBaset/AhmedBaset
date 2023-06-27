@@ -2,7 +2,7 @@
   "type": "rainbow",
   "fileName": "MySettings.svg",
   "growingAnimation": true,
-  
+
   "backgroundColor": "#161b21",
   "foregroundColor": "#eeeeff",
   "strongColor": "rgb(255,200,55)",
@@ -10,15 +10,7 @@
   "radarColor": "rgb(255,200,55)",
 
   "saturation": "60%",
-  "contribLightness": [
-    "50%",
-    "60%",
-    "70%",
-    "80%",
-    "90%"
-  ],
+  "contribLightness": ["50%", "60%", "70%", "80%", "90%"],
   "duration": "7s",
   "hueRatio": -2
-
-
 }
