@@ -6,7 +6,7 @@
 -->
 
 <!-- Terminal: Text Animation -->
-![npm i abdlmutii && npx abdlmutii](https://readme-typing-svg.demolab.com?pause=1000&color=FFFFFF&center=false&width=435&lines=>+npx+info+--dev;>+I+am+'Ahmed+Abdelbaset';>+MERN+Stack+Developer;>+in+love+with+Next.js)
+![npm i abdlmutii && npx abdlmutii](https://readme-typing-svg.demolab.com?pause=1000&color=FFFFFF&center=false&width=435&lines=>+npx+info+--dev;>+I+am+'Ahmed+Abdelbaset';>+MERN+Stack+Developer;>+learn+new+things+every+day)
 
 <!-- Profile Views Counter -->
 ![](https://komarev.com/ghpvc/?username=A7med3bdulBaset)
@@ -30,11 +30,20 @@ const languagesSpoken = {
 }
 
 const skills: Skill[] = [
-    "HTML", "CSS", "SCSS", "TailwindCSS", 
-    "JavaScript", "TypeScript", 
-    "React.js", "Next.js",
-    "Node.js", "Express.js",
-    "MongoDB", "Firebase",
+    'HTML', 'CSS', 'SCSS',
+    'TailwindCSS', 
+    'JavaScript',
+    'TypeScript', 
+    'React.js',
+    'Next.js',
+    'Node.js',
+    'Express.js',
+    'MongoDB',
+    'Firebase',
+    'next-auth',
+    'next-intl',
+    'Radix-UI',
+    'Shadcn-ui',
     ...mySkills
   ];
 
