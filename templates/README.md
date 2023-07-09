@@ -5,11 +5,17 @@
 
 -->
 
+<!-- * IMPORTANT: Don't modify ./README.md since it's auto-generated. instead modify ./templates/README.md -->
+
 <!-- Terminal: Text Animation -->
 ![npm i abdlmutii && npx abdlmutii](https://readme-typing-svg.demolab.com?pause=1000&color=FFFFFF&center=false&width=435&lines=>+npx+info+--dev;>+I+am+'Ahmed+Abdelbaset';>+MERN+Stack+Developer;>+learn+new+things+every+day)
 
 <!-- Profile Views Counter -->
 ![](https://komarev.com/ghpvc/?username=A7med3bdulBaset)
+
+<!-- OverView and Languages -->
+![Overview](/images/overview.svg)
+![Languages](/images/languages.svg)
 
 <!-- Code Snippet -->
 ```typescript
