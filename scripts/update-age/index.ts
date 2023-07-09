@@ -4,7 +4,7 @@ import { user } from "../../config/user";
 
 (async () => {
 	const age = calculateAge();
-	const readmePath = path.join(process.cwd(), "README.md");
+	const readmePath = path.join(process.cwd(), "templates", "README.md");
 
 	const readmeContent = await fs.readFile(readmePath, "utf-8");
 	const updatedContent = updateAgeInReadme(readmeContent, age);
@@ -43,7 +43,7 @@ function updateAgeInReadme(
 	const updatedDate = new Date().toLocaleString();
 
 	//  const pattern = /age(:|\s?=)\s?(.+?)(;|,)\n/;
-	const pattern = /age.+👨🏻‍💻/s;
+	const pattern = /<<age>>/s;
 	const replacement = `age = {\n    years: ${years},\n    months: ${months},\n    days: ${days}\n}; // Updated automatically on ${updatedDate} 👨🏻‍💻`;
 
 	return content.replace(pattern, replacement);
