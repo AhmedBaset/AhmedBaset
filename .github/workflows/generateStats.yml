@@ -58,6 +58,7 @@ jobs:
 
       - name: Commit & Push
         run: |
+          git add images
           git commit -am "Generate Stats on ${{ steps.date.outputs.date }}
           Co-Authored-By: Ahmed Abdelbaset <A7med3bdulBaset@gmail.com>
           " || echo
