@@ -17,8 +17,8 @@ def generate_output_folder() -> None:
     """
     Create the output folder if it does not already exist
     """
-    if not os.path.isdir("generated"):
-        os.mkdir("generated")
+    if not os.path.isdir("images"):
+        os.mkdir("images")
 
 
 ################################################################################
@@ -44,7 +44,7 @@ async def generate_overview(s: Stats) -> None:
     output = re.sub("{{ repos }}", f"{len(await s.all_repos):,}", output)
 
     generate_output_folder()
-    with open("generated/overview.svg", "w") as f:
+    with open("images/overview.svg", "w") as f:
         f.write(output)
 
 
@@ -53,7 +53,7 @@ async def generate_languages(s: Stats) -> None:
     Generate an SVG badge with summary languages used
     :param s: Represents user's GitHub statistics
     """
-    with open("./../../templates/languages.svg", "r") as f:
+    with open("./../../../templates/languages.svg", "r") as f:
         output = f.read()
 
     progress = ""
@@ -88,7 +88,7 @@ fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path></svg>
     output = re.sub(r"{{ lang_list }}", lang_list, output)
 
     generate_output_folder()
-    with open("generated/languages.svg", "w") as f:
+    with open("images/languages.svg", "w") as f:
         f.write(output)
 
 
