@@ -11,6 +11,9 @@ dependencies:
   dotenv:
     specifier: ^16.3.1
     version: 16.3.1
+  profile-readme:
+    specifier: 'link:'
+    version: 'link:'
 
 devDependencies:
   '@types/node':
