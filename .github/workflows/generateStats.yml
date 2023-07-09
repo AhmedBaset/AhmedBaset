@@ -19,7 +19,7 @@ jobs:
         run: |
           git config --global user.name "Ahmed Abdelbaset"
           git config --global user.email "${{ github.repository_owner }}@users.noreply.github.com"
-          git pull
+          git config pull.rebase false
 
       - name: Set up Python
         uses: actions/setup-python@v2

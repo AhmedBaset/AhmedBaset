@@ -21,7 +21,7 @@ jobs:
         run: |
           git config --global user.name "Ahmed Abdelbaset"
           git config --global user.email "${{ github.repository_owner }}@users.noreply.github.com"
-          git pull
+          git config pull.rebase false
 
       - name: Generate 3D contribution
         uses: yoshi389111/github-profile-3d-contrib@0.7.1
