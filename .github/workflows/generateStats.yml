@@ -62,7 +62,4 @@ jobs:
           git commit -am "Generate Stats on ${{ steps.date.outputs.date }}
           Co-Authored-By: Ahmed Abdelbaset <A7med3bdulBaset@gmail.com>
           " || echo
-          git checkout output 2>/dev/null || git checkout --orphan output && git rm -rf . && git checkout main -- generated/
-          # "echo" returns true so the build succeeds, even if no changed files
-          git commit -m 'Update generated files' || echo
-          git push origin output -f
+          git push
