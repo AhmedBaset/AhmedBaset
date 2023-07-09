@@ -19,6 +19,7 @@ def generate_output_folder() -> None:
     """
     if not os.path.isdir("images"):
         os.mkdir("images")
+        print("Created images folder")
 
 
 ################################################################################
@@ -47,6 +48,7 @@ async def generate_overview(s: Stats) -> None:
     generate_output_folder()
     with open("images/overview.svg", "w") as f:
         f.write(output)
+        print("Generated overview.svg")
 
 
 async def generate_languages(s: Stats) -> None:
@@ -92,6 +94,7 @@ fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path></svg>
     generate_output_folder()
     with open("images/languages.svg", "w") as f:
         f.write(output)
+        print("Generated languages.svg")
 
 
 ################################################################################
