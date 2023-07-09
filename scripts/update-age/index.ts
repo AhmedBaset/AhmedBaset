@@ -4,12 +4,13 @@ import { user } from "../../config/user";
 
 (async () => {
 	const age = calculateAge();
-	const readmePath = path.join(process.cwd(), "templates", "README.md");
+	const templateReadme = path.join(process.cwd(), "templates", "README.md");
+	const outputReadme = path.join(process.cwd(), "README.md");
 
-	const readmeContent = await fs.readFile(readmePath, "utf-8");
+	const readmeContent = await fs.readFile(templateReadme, "utf-8");
 	const updatedContent = updateAgeInReadme(readmeContent, age);
 
-	await fs.writeFile(readmePath, updatedContent);
+	await fs.writeFile(outputReadme, updatedContent);
 	console.log("DONE");
 })();
 
@@ -40,11 +41,16 @@ function updateAgeInReadme(
 	age: { years: number; months: number; days: number }
 ) {
 	const { years, months, days } = age;
-	const updatedDate = new Date().toLocaleString();
+	const updatedDate = new Date().toLocaleString("en", {
+		timeZone: "Africa/Cairo",
+		dateStyle: "long",
+		timeStyle: "short",
+	})
 
 	//  const pattern = /age(:|\s?=)\s?(.+?)(;|,)\n/;
 	const pattern = /<<age>>/s;
-	const replacement = `age = {\n    years: ${years},\n    months: ${months},\n    days: ${days}\n}; // Updated automatically on ${updatedDate} 👨🏻‍💻`;
+	// const replacement = `{\n    years: ${years},\n    months: ${months},\n    days: ${days}\n}; // Updated automatically on ${updatedDate} 👨🏻‍💻`;
+	const replacement = `"${years} years, ${months} months, and ${days} days" // Updated automatically on ${updatedDate} 👨🏻‍💻`;
 
 	return content.replace(pattern, replacement);
 }

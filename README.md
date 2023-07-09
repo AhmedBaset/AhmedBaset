@@ -16,11 +16,7 @@
 // Personality 
 const name = "Ahmed Abdelbaset";
 
-let age = {
-    years: 20,
-    months: 5,
-    days: 15
-}; // Updated automatically on 7/9/2023, 1:05:58 AM 👨🏻‍💻
+let age = "20 years, 5 months, and 16 days" // Updated automatically on July 10, 2023 at 12:40 AM 👨🏻‍💻
 
 const country = "Egypt";
 
@@ -78,4 +74,3 @@ setInterval(() => {
 <a href="https://www.youtube.com/c/a7med3bdulbaset" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="YouTube" height="25" width="30" style="margin-right: 15px;"></a>
 <a href="https://fb.com/a7med3bdulbaset" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="Facebook" height="25" width="30" style="margin-right: 15px;"></a>
 <a href="https://instagram.com/a7med3bdulbaset" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="Instagram" height="25" width="30" style="margin-right: 15px;"></a>
-
