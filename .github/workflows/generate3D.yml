@@ -51,6 +51,7 @@ jobs:
           git commit -m "Update 3D on ${{ steps.date.outputs.date }}
           Co-Authored-By: Ahmed Abdelbaset <A7med3bdulBaset@gmail.com>
           "
+          git pull
           git push
 
       - if: steps.git-check.outputs.changes == 'false'

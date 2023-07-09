@@ -62,4 +62,5 @@ jobs:
           git commit -am "Generate Stats on ${{ steps.date.outputs.date }}
           Co-Authored-By: Ahmed Abdelbaset <A7med3bdulBaset@gmail.com>
           " || echo
+          git pull
           git push
