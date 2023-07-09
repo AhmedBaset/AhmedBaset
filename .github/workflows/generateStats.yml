@@ -1,0 +1,78 @@
+name: Generate Stats Images
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+jobs:
+  update-age:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Configure Git
+        run: |
+          git config --global user.name "Ahmed Abdelbaset"
+          git config --global user.email "${{ github.repository_owner }}@users.noreply.github.com"
+          git pull
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.8'
+          architecture: 'x64'
+        
+      # Cache dependencies. From:
+      # https://github.com/actions/cache/blob/master/examples.md#python---pip
+      - uses: actions/cache@v2
+        with:
+          path: ~/.cache/pip.github/workflows/generateStats.yml
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
+      - name: Install requirements
+        run: |
+          python3 -m pip install --upgrade pip setuptools wheel
+          python3 -m pip install -r requirements.txt
+
+      - name: Generate images
+        run: |
+          python3 --version
+          python3 scripts/generate-stats-python/generate_images.py
+        env:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          EXCLUDED: ${{ secrets.EXCLUDED }}
+          EXCLUDED_LANGS: ${{ secrets.EXCLUDED_LANGS }}
+          COUNT_STATS_FROM_FORKS: ${{ secrets.COUNT_STATS_FROM_FORKS }}
+
+      - name: Get current date
+        id: date
+        run: echo "date=$(date +'%Y-%m-%d %H:%M')" >> $GITHUB_OUTPUT
+
+      - name: Has Changes?
+        id: git-check
+        run: |
+          if [[ -n $(git diff HEAD) ]]; then
+            echo "changes=true" >> $GITHUB_OUTPUT
+          else
+            echo "changes=false" >> $GITHUB_OUTPUT
+          fi
+
+      - if: steps.git-check.outputs.changes == 'true'
+        name: Commit & Push
+        run: |
+          git commit -am "Generate Stats on ${{ steps.date.outputs.date }}
+          Co-Authored-By: Ahmed Abdelbaset <A7med3bdulBaset@gmail.com>
+          "
+          git push
+
+      - if: steps.git-check.outputs.changes == 'false'
+        name: Already Up-to-date 
+        run: echo "No changes to push"
