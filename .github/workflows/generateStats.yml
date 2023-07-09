@@ -56,23 +56,12 @@ jobs:
         id: date
         run: echo "date=$(date +'%Y-%m-%d %H:%M')" >> $GITHUB_OUTPUT
 
-      - name: Has Changes?
-        id: git-check
-        run: |
-          if [[ -n $(git diff HEAD) ]]; then
-            echo "changes=true" >> $GITHUB_OUTPUT
-          else
-            echo "changes=false" >> $GITHUB_OUTPUT
-          fi
-
-      - if: steps.git-check.outputs.changes == 'true'
-        name: Commit & Push
+      - name: Commit & Push
         run: |
           git commit -am "Generate Stats on ${{ steps.date.outputs.date }}
           Co-Authored-By: Ahmed Abdelbaset <A7med3bdulBaset@gmail.com>
-          "
-          git push
-
-      - if: steps.git-check.outputs.changes == 'false'
-        name: Already Up-to-date 
-        run: echo "No changes to push"
+          " || echo
+          git checkout output 2>/dev/null || git checkout --orphan output && git rm -rf . && git checkout main -- generated/
+          # "echo" returns true so the build succeeds, even if no changed files
+          git commit -m 'Update generated files' || echo
+          git push origin output -f
