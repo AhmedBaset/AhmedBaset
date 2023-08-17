@@ -22,7 +22,7 @@
 // Personality 
 const name = "Ahmed Abdelbaset";
 
-let age = "20 years, 6 months, and 21 days" // Updated automatically on August 16, 2023 at 3:39 AM 👨🏻‍💻
+let age = "20 years, 6 months, and 22 days" // Updated automatically on August 17, 2023 at 3:38 AM 👨🏻‍💻
 
 const country = "Egypt";
 
@@ -68,6 +68,10 @@ setInterval(() => {
 
 <!-- 3D Contributions -->
 [![3D](/profile-3d-contrib/MySettings.svg)](https://github.com/A7med3bdulBaset)
+
+<!-- Upwork -->
+### Would you like to build a project?
+[![Hire me](https://img.shields.io/badge/UpWork-6FDA44?style=for-the-badge&logo=Upwork&label=Hire%20Ahmed%20on&logoColor=white&labelColor=16ae4c&color=16ae4c)](https://www.upwork.com/freelancers/~014c62e51cf0b7e1cf)
 
 <!-- Social Links -->
 ### Following me? Let's be friends:
