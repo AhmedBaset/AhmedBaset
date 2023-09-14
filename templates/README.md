@@ -84,3 +84,9 @@ setInterval(() => {
 <a href="https://www.youtube.com/c/a7med3bdulbaset" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="YouTube" height="25" width="30" style="margin-right: 15px;"></a>
 <a href="https://fb.com/a7med3bdulbaset" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="Facebook" height="25" width="30" style="margin-right: 15px;"></a>
 <a href="https://instagram.com/a7med3bdulbaset" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="Instagram" height="25" width="30" style="margin-right: 15px;"></a>
+
+<!-- 
+https://rdme-stats.vercel.app/api?username=a7med3bdulbaset&show=reviews&hide=issues&show_icons=true&theme=dark&title_color=009fff&icon_color=009fff&text_color=cccccc&bg_color=45,111111,444444#gh-dark-mode-only
+https://rdme-stats.vercel.app/api?username=a7med3bdulbaset&show=reviews&hide=issues&show_icons=true&theme=default#gh-light-mode-only
+
+-->
