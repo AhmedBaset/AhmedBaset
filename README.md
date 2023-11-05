@@ -8,13 +8,16 @@
 <!-- * IMPORTANT: Don't modify ./README.md since it's auto-generated. instead modify ./templates/README.md -->
 
 <!-- Terminal: Text Animation -->
-![CLI](https://readme-typing-svg.demolab.com?pause=1000&color=FFFFFF&center=false&width=435&lines=>+npx+info+--dev;>+I+am+'Ahmed+Abdelbaset';>+MERN+Stack+Developer;>+learn+new+things+every+day)
+![CLI](https://readme-typing-svg.demolab.com?pause=1000&color=FFFFFF&center=false&width=435&lines=+npx+info+--dev;>+I+am+'Ahmed+Abdelbaset';>+Next.js,+React+developer;>+mostly+in+TypeScript;>+I'm+a+final-year+student+and+part-time+front-end+dev;>+BTW,+Open-sourcer)
 
 <!-- Profile Views Counter -->
 ![](https://komarev.com/ghpvc/?username=A7med3bdulBaset)
 
 <!-- OverView and Languages -->
-![Overview](/images/overview.svg)
+<!--
+![Overview](/images/overview.svg) 
+![Languages](/images/languages.svg)
+-->
 ![Languages](/images/languages.svg)
 
 <!-- Code Snippet -->
@@ -22,7 +25,7 @@
 // Personality 
 const name = "Ahmed Abdelbaset";
 
-let age = "20 years, 9 months, and 9 days" // Updated automatically on November 4, 2023 at 2:41 AM 👨🏻‍💻
+let age = "20 years, 9 months, and 10 days" // Updated automatically on November 5, 2023 at 2:45 AM 👨🏻‍💻
 
 const country = "Egypt";
 
@@ -31,23 +34,14 @@ const languagesSpoken = {
   Arabic: "Native"
 }
 
-const skills: Skill[] = [
-    'HTML', 'CSS', 'SCSS',
-    'TailwindCSS', 
-    'JavaScript',
-    'TypeScript', 
-    'React.js',
-    'Next.js',
-    'Node.js',
-    'Express.js',
-    'MongoDB',
-    'Firebase',
-    'next-auth',
-    'next-intl',
-    'Radix-UI',
-    'Shadcn-ui',
-    ...mySkills
-  ];
+const stack: Skill[] = [
+  "TypeScript",
+  "Next.js",
+  "React",
+  "tailwindcss",
+  "Node.js",
+  ...nextJsEcoSystem,
+];
 
 let isGraduated: boolean = 0.1 + 0.2 === 0.3;
 
@@ -64,7 +58,9 @@ setInterval(() => {
 
 ```
 <!-- Skills -->
+<!-- 
 ![My Skills](https://skillicons.dev/icons?i=html,css,sass,js,ts,tailwind,nextjs,react,redux,express,mongodb,prisma,firebase,bots,vscode,vite,figma,gulp&theme=dark&perline=6)
+-->
 
 <!-- 3D Contributions -->
 [![3D](/profile-3d-contrib/MySettings.svg)](https://github.com/A7med3bdulBaset)
