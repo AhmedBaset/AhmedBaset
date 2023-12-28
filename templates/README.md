@@ -5,6 +5,10 @@
 
 -->
 
+--- 
+> #NewYear: Read my [2023 Wrap up](/wrapup/2023.md) if you want to know some stuff about me.
+---
+
 <!-- * IMPORTANT: Don't modify ./README.md since it's auto-generated. instead modify ./templates/README.md -->
 
 <!-- Terminal: Text Animation -->
