@@ -2,7 +2,6 @@
   Code with ♥️
   © By Ahmed Abdelbaset 
   https://github.com/A7med3bdulBaset
-
 -->
 
 <!-- * IMPORTANT: Don't modify ./README.md since it's auto-generated. instead modify ./templates/README.md -->
