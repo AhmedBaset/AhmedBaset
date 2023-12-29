@@ -2,7 +2,12 @@
   Code with ♥️
   © By Ahmed Abdelbaset 
   https://github.com/A7med3bdulBaset
+
 -->
+
+--- 
+> #NewYear: Read my [2023 Wrap up](/wrapup/2023.md) if you want to know some stuff about me.
+---
 
 <!-- * IMPORTANT: Don't modify ./README.md since it's auto-generated. instead modify ./templates/README.md -->
 
@@ -24,7 +29,7 @@
 // Personality 
 const name = "Ahmed Abdelbaset";
 
-let age = "20 years, 11 months, and 3 days" // Updated automatically on December 28, 2023 at 2:42 AM 👨🏻‍💻
+let age = "20 years, 11 months, and 4 days" // Updated automatically on December 29, 2023 at 2:35 AM 👨🏻‍💻
 
 const country = "Egypt";
 
