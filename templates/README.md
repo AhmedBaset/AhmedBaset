@@ -5,6 +5,8 @@
 
 -->
 
+---
+[![Ceasefire Now](https://badge.techforpalestine.org/default)](https://techforpalestine.org/learn-more)
 --- 
 > #NewYear: Read my [2023 Wrap up](/wrapup/2023.md) if you want to know some stuff about me.
 ---
