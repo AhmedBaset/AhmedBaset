@@ -5,6 +5,8 @@
 
 -->
 
+---
+[![Ceasefire Now](https://badge.techforpalestine.org/default)](https://techforpalestine.org/learn-more)
 --- 
 > #NewYear: Read my [2023 Wrap up](/wrapup/2023.md) if you want to know some stuff about me.
 ---
@@ -29,7 +31,7 @@
 // Personality 
 const name = "Ahmed Abdelbaset";
 
-let age = "20 years, 11 months, and 16 days" // Updated automatically on January 11, 2024 at 2:45 AM 👨🏻‍💻
+let age = "20 years, 11 months, and 17 days" // Updated automatically on January 12, 2024 at 2:46 AM 👨🏻‍💻
 
 const country = "Egypt";
 
