@@ -2,11 +2,8 @@
   Code with ♥️
   © By Ahmed Abdelbaset 
   https://github.com/A7med3bdulBaset
-
 -->
-
----
-[![Ceasefire Now](https://badge.techforpalestine.org/default)](https://techforpalestine.org/learn-more)
+[![ReadMeSupportPalestine](https://raw.githubusercontent.com/Safouene1/support-palestine-banner/master/banner-support.svg)](https://techforpalestine.org/learn-more)
 --- 
 > #NewYear: Read my [2023 Wrap up](/wrapup/2023.md) if you want to know some stuff about me.
 ---
@@ -31,7 +28,7 @@
 // Personality 
 const name = "Ahmed Abdelbaset";
 
-let age = "20 years, 11 months, and 17 days" // Updated automatically on January 12, 2024 at 2:46 AM 👨🏻‍💻
+let age = "20 years, 11 months, and 18 days" // Updated automatically on January 13, 2024 at 2:44 AM 👨🏻‍💻
 
 const country = "Egypt";
 
