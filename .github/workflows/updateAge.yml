@@ -22,10 +22,7 @@ jobs:
         run: npm install
         
       - name: Configure Git
-        run: |
-          git config --global user.name "Ahmed Abdelbaset"
-          git config --global user.email "${{ github.repository_owner }}@users.noreply.github.com"
-          git config pull.rebase false
+        run: git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
       - name: Update Age
         run: npm run update:age
