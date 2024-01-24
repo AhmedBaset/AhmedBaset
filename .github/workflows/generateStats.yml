@@ -16,10 +16,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Configure Git
-        run: |
-          git config --global user.name "Ahmed Abdelbaset"
-          git config --global user.email "${{ github.repository_owner }}@users.noreply.github.com"
-          git config pull.rebase false
+        run: git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
       - name: Set up Python
         uses: actions/setup-python@v2
