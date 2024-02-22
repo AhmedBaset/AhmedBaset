@@ -28,7 +28,7 @@
 // Personality 
 const name = "Ahmed Abdelbaset";
 
-let age = "21 years, 0 months, and 27 days" // Updated automatically on February 21, 2024 at 2:42 AM 👨🏻‍💻
+let age = "21 years, 0 months, and 28 days" // Updated automatically on February 22, 2024 at 2:41 AM 👨🏻‍💻
 
 const country = "Egypt";
 
