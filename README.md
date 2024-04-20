@@ -4,6 +4,10 @@
   https://github.com/AhmedBaset
 
 -->
+[![ReadMeSupportPalestine](https://raw.githubusercontent.com/Safouene1/support-palestine-banner/master/banner-support.svg)](https://techforpalestine.org/learn-more)
+--- 
+> #NewYear: Read my [2023 Wrap up](/wrapup/2023.md) if you want to know some stuff about me.
+---
 
 <!-- * IMPORTANT: Don't modify ./README.md since it's auto-generated. instead modify ./templates/README.md -->
 
@@ -25,7 +29,7 @@
 // Personality 
 const name = "Ahmed Abdelbaset";
 
-let age = "20 years, 11 months, and 3 days" // Updated automatically on December 28, 2023 at 2:42 AM 👨🏻‍💻
+let age = "21 years, 2 months, and 24 days" // Updated automatically on April 20, 2024 at 2:43 AM 👨🏻‍💻
 
 const country = "Egypt";
 

@@ -2,11 +2,10 @@ name: Generate Contribution 3D
 
 on:
   schedule:
-    - cron: "0 2 * * *"
+    - cron: "0 0 * * *"
   workflow_dispatch:
   push: 
     branches: main
-
 
 jobs:
   build:
@@ -19,9 +18,8 @@ jobs:
 
       - name: Configure Git
         run: |
-          git config --global user.name "Ahmed Abdelbaset"
-          git config --global user.email "${{ github.repository_owner }}@users.noreply.github.com"
-          git config pull.rebase false
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "Github Actions Bot"
 
       - name: Generate 3D contribution
         uses: yoshi389111/github-profile-3d-contrib@0.7.1

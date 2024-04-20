@@ -2,9 +2,8 @@
   Code with ♥️
   © By Ahmed Abdelbaset 
   https://github.com/AhmedBaset
-
 -->
-
+[![ReadMeSupportPalestine](https://raw.githubusercontent.com/Safouene1/support-palestine-banner/master/banner-support.svg)](https://techforpalestine.org/learn-more)
 --- 
 > #NewYear: Read my [2023 Wrap up](/wrapup/2023.md) if you want to know some stuff about me.
 ---
